@@ -1,6 +1,4 @@
-
 name: Build ROSHA TRACKER APK
-
 on:
   workflow_dispatch:
   push:
