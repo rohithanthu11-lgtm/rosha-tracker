@@ -25,6 +25,8 @@ jobs:
           java-version: '21'
       - name: Install npm dependencies
         run: npm install
+      - name: Install TypeScript
+        run: npm install  typescript
       - name: Generate Android project
         run: npx cap add android
       - name: Copy web app into Android project
